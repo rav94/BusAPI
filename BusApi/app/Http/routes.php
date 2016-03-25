@@ -15,6 +15,10 @@ $app->get('/', function () use ($app) {
     return $app->version();
 });
 
+$app->get('/', function () use ($app) {
+    return "Hi there Welcome to Bus API";
+});
+
 //$app->get('/key', function() {
 //    return str_random(32);
 //});
