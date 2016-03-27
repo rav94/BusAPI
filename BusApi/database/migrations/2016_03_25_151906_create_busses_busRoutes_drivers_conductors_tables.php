@@ -22,6 +22,7 @@ class CreateBussesBusRoutesDriversConductorsTables extends Migration
             $table->string('bus_seat_no');
             $table->string('bus_owner_name');
             $table->string('bus_contact_no');
+            $table->integer('user_id');
             $table->timestamps();
         });
         
@@ -36,6 +37,7 @@ class CreateBussesBusRoutesDriversConductorsTables extends Migration
             $table->string('starting_location');
             $table->string('finishing_location');
             $table->string('estimated_time');
+            $table->integer('user_id');
             $table->timestamps();
         });
 
@@ -49,6 +51,7 @@ class CreateBussesBusRoutesDriversConductorsTables extends Migration
             $table->string('contact_number');
             $table->string('nic_number');
             $table->string('driver_reg_number');
+            $table->integer('user_id');
             $table->timestamps();
         });
 
@@ -62,6 +65,7 @@ class CreateBussesBusRoutesDriversConductorsTables extends Migration
             $table->string('contact_number');
             $table->string('nic_number');
             $table->string('conductor_reg_number');
+            $table->integer('user_id');
             $table->timestamps();
         });
 

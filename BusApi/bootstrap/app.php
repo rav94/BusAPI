@@ -23,9 +23,15 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
-// $app->withFacades();
+$app->register('Collective\Html\HtmlServiceProvider');
 
-// $app->withEloquent();
+class_alias('Collective\Html\HtmlFacade', 'Html');
+
+class_alias('Collective\Html\FormFacade', 'Form');
+
+$app->withFacades();
+
+$app->withEloquent();
 
 /*
 |--------------------------------------------------------------------------

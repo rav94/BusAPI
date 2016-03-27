@@ -8,7 +8,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class BuRoute extends Model
+class BusRoute extends Model
 {
     protected $table = 'bus_routes';
 

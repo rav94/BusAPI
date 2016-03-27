@@ -14,13 +14,14 @@ class User extends Model implements
 {
     use Authenticatable, Authorizable;
 
+    protected $table = 'users';
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'token',
+        'name', 'email', 'token',
     ];
 
     /**
