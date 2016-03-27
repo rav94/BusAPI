@@ -11,9 +11,9 @@
     <li><a href="#view_type" class="cc-active">Serialization Formats</a></li>
 
     <li class="separator"></li>
-    <li><strong>API DATA</strong></li>
-    <li><a href="recipe" class="cc-active">Recipes</a></li>
-    <li><a href="ingredients" class="cc-active">Ingredients</a></li>
-    <li><a href="directions" class="cc-active">Directions</a></li>
-    <li><a href="nutritional" class="cc-active">Nutritional</a></li>
+    <li><strong>API RESOURCES</strong></li>
+    <li><a href="buses" class="cc-active">Buses</a></li>
+    <li><a href="busroutes" class="cc-active">Bus Routes</a></li>
+    <li><a href="drivers" class="cc-active">Drivers</a></li>
+    <li><a href="conductors" class="cc-active">Conductors</a></li>
 </ul>

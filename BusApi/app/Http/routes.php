@@ -11,10 +11,6 @@
 |
 */
 
-$app->get('/', function () use ($app) {
-    return view('Home.login');
-});
-
 //$app->get('/', function () use ($app) {
 //    return "Hi there Welcome to Bus API";
 //});
@@ -22,6 +18,31 @@ $app->get('/', function () use ($app) {
 //$app->get('/key', function() {
 //    return str_random(32);
 //});
+
+//Routes for documentation
+
+$app->get('/', function () use ($app) {
+    return view('Home.index');
+});
+
+$app->get('buses', function () use ($app) {
+    return view('Home.include.buses');
+});
+
+$app->get('busroutes', function () use ($app) {
+    return view('Home.include.busroutes');
+});
+
+$app->get('drivers', function () use ($app) {
+    return view('Home.include.drivers');
+});
+
+$app->get('conductors', function () use ($app) {
+    return view('Home.include.conductors');
+});
+
+
+//API Client Application Routes
 
 //User Routes
 $app->get('user', 'UserController@index');
@@ -31,12 +52,14 @@ $app->get('user/login','UserController@login');
 $app->get('user/logout','UserController@logout');
 $app->get('user/busapi','UserController@interactions');
 
+//API Routes
+ 
 //Bus
 $app->post('busapi/bus/create/{apiKey}','BusController@create');
 $app->put('busapi/bus/update/{id}/{apiKey}','BusController@update');
 $app->delete('busapi/bus/delete/{id}/{apiKey}','BusController@delete');
 $app->get('busapi/bus/{id}/{apiKey}','BusController@getById');
-$app->get('busapi/bus/{title}','BusController@getByTitle');
+$app->get('busapi/bus/{bus_name}','BusController@getByTitle');
 
 //BusRoutes
 $app->post('busapi/busroute/create/{apiKey}','BusRouteController@create');

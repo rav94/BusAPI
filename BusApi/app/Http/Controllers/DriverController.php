@@ -32,15 +32,16 @@ class DriverController extends Controller
             return response()->json($driver);
         }
         else{
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
+    
     public function  update(Request $request,$id,$apiKey)
     {
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $driver=Driver::find($id);
+            $driver=DB::select("SELECT * FROM drivers WHERE driver_id = '$id'");
             $driver->b_id=$request->input('b_id');
             $driver->driver_name=$request->input('driver_name');
             $driver->contact_number=$request->input('contact_number');
@@ -51,34 +52,36 @@ class DriverController extends Controller
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
+    
     public function delete($id,$apiKey)
     {
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $driver=Driver::find($id);
+            $driver=DB::select("SELECT * FROM drivers WHERE  driver_id = '$id'");
             $driver->delete();
-            return response()->json('Deleted');
+            return response()->json('Deleted'.' '.$id);
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
+    
     public function getById($id,$apiKey)
     {
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $driver=Driver::find($id);
+            $driver=DB::select("SELECT * FROM drivers WHERE  driver_id = '$id'");
             return response()->json($driver);
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
 

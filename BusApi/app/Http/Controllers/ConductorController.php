@@ -32,7 +32,7 @@ class ConductorController extends Controller
             return response()->json($conductor);
         }
         else{
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
     public function  update(Request $request,$id,$apiKey)
@@ -40,7 +40,7 @@ class ConductorController extends Controller
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $conductor=Conductor::find($id);
+            $conductor=DB::select("SELECT * FROM conductors WHERE conductor_id = '$id'");
             $conductor->b_id=$request->input('b_id');
             $conductor->conductor_name=$request->input('conductor_name');
             $conductor->contact_number=$request->input('contact_number');
@@ -51,7 +51,7 @@ class ConductorController extends Controller
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
     public function delete($id,$apiKey)
@@ -59,13 +59,13 @@ class ConductorController extends Controller
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $conductor=Conductor::find($id);
+            $conductor=DB::select("SELECT * FROM conductors WHERE conductor_id = '$id'");
             $conductor->delete();
-            return response()->json('Deleted');
+            return response()->json('Deleted'.' '.$id);
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
     public function getById($id,$apiKey)
@@ -73,12 +73,12 @@ class ConductorController extends Controller
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $conductor=Conductor::find($id);
+            $conductor=DB::select("SELECT * FROM conductors WHERE conductor_id = '$id'");
             return response()->json($conductor);
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
 

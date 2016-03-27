@@ -17,7 +17,7 @@
     <nav>
 
         <div class="pull-left">
-            <h1><a href="javascript:"><img src="img/icon.png" alt="Free Documentation Template Icon" /> <span style="font-size: .5em;">Documentation</span></a></h1>
+            <h1><a href="javascript:"><img src="images/icon.png" alt="Free Documentation Template Icon" /> <span style="font-size: .5em;">Documentation</span></a></h1>
         </div>
 
         <div class="pull-right">
@@ -29,7 +29,7 @@
     </nav>
     <header style="background-color:#ea6153";>
         <div class="container">
-            <h2 class="lone-header">Recipes Oven</h2>
+            <h2 class="lone-header">Bus API</h2>
         </div>
     </header>
 

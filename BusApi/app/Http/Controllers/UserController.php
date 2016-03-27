@@ -16,6 +16,8 @@ use App\Conductor;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
@@ -41,7 +43,7 @@ class UserController extends Controller
         $user=new User();
         $user->name=$request->input('name');
         $user->email=$request->input('email');
-        $user->password=$request->input('password');
+        $user->password=Hash::bycrypt($request->input('password'));
         $user->token=$token;
         $user->save();
         return redirect('user');

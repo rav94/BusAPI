@@ -34,7 +34,7 @@ class BusRouteController extends Controller
             return response()->json($busroute);
         }
         else{
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
     public function  update(Request $request,$id,$apiKey)
@@ -42,7 +42,7 @@ class BusRouteController extends Controller
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $busroute=BusRoute::find($id);
+            $busroute=DB::select("SELECT * FROM bus_routes WHERE  route_id = '$id'");
             $busroute->b_id=$request->input('b_id');
             $busroute->route_number=$request->input('route_number');
             $busroute->route_name=$request->input('route_name');
@@ -54,7 +54,7 @@ class BusRouteController extends Controller
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
     public function delete($id,$apiKey)
@@ -62,24 +62,27 @@ class BusRouteController extends Controller
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
         if($user!=null)
         {
-            $busroute=BusRoute::find($id);
+            $busroute=DB::select("SELECT * FROM bus_routes WHERE  route_id = '$id'");
             $busroute->delete();
-            return response()->json('Deleted');
+            return response()->json('Deleted'.' '.$id);
         }
         else
         {
-            return response()->json(["Not validate API key"]);
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
+    
     public function getById($id,$apiKey)
     {
         $user=DB::select("SELECT * FROM users WHERE token='$apiKey'");
-        if($user!=null) {
-            $busroute=BusRoute::find($id);
+        if($user!=null)
+        {
+            $busroute=DB::select("SELECT * FROM bus_routes WHERE  route_id = '$id'");
             return response()->json($busroute);
         }
-        else{
-            return response()->json(["Not validate API key"]);
+        else
+        {
+            return response()->json(["Your API Key is Not Valid"]);
         }
     }
 
