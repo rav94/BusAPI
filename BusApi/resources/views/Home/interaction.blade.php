@@ -68,7 +68,7 @@
                     </div>
                     <div class="form-group">
                         <label >Bus Owner Contact Number</label>
-                        <input type="text" class="form-control" name="bus_contact_no" placeholder="Bus owner contact number">
+                        <input type="text" class="form-control" name="bus_contact_no" placeholder="Bus owner Contact Number">
                     </div>
 
                     <button type="submit" class="btn btn-success">Submit</button>

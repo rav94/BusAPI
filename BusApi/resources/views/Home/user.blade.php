@@ -50,11 +50,12 @@
                     <thead>
                     <tr>
                         <th>Id</th>
-                        <th>Bus</th>
+                        <th>Name</th>
                         <th>Registered No</th>
                         <th>Brand</th>
                         <th>No of Seats</th>
                         <th>Owner Name</th>
+                        <th>Owner Contact No</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -66,6 +67,7 @@
                             <td>{{$bus[$i]->bus_brand}}</td>
                             <td>{{$bus[$i]->bus_seat_no}}</td>
                             <td>{{$bus[$i]->bus_owner_name}}</td>
+                            <td>{{$bus[$i]->bus_contact_no}}</td>
                         </tr>
                     @endfor
                     </tbody>
@@ -77,21 +79,23 @@
                 <table class="table table-hover">
                     <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Recipe_id</th>
+                        <th>Bus Id</th>
+                        <th>Number</th>
                         <th>Name</th>
-                        <th>Unit</th>
-                        <th>Qty</th>
+                        <th>Starting Location</th>
+                        <th>Finishing Location</th>
+                        <th>Estimated Time</th>
                     </tr>
                     </thead>
                     <tbody>
-                    @for($a=0;$a<count($broute);$a++)
+                    @for($i=0;$i<count($broute);$i++)
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>{{$broute[$i]->b_id}}</td>
+                            <td>{{$broute[$i]->route_number}}</td>
+                            <td>{{$broute[$i]->route_name}}</td>
+                            <td>{{$broute[$i]->starting_location}}</td>
+                            <td>{{$broute[$i]->finishing_location}}</td>
+                            <td>{{$broute[$i]->estimated_time}}</td>
                         </tr>
                     @endfor
                     </tbody>
@@ -110,17 +114,21 @@
                 <table class="table table-hover">
                     <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Recipe Id</th>
-                        <th>Steps</th>
+                        <th>Bus Id</th>
+                        <th>Name</th>
+                        <th>Contact Number</th>
+                        <th>NIC Number</th>
+                        <th>Registration No</th>
                     </tr>
                     </thead>
                     <tbody>
-                    @for($b=0;$b<count($dri);$b++)
+                    @for($i=0;$i<count($dri);$i++)
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>{{$dri[$i]->b_id}}</td>
+                            <td>{{$dri[$i]->driver_name}}</td>
+                            <td>{{$dri[$i]->contact_number}}</td>
+                            <td>{{$dri[$i]->nic_number}}</td>
+                            <td>{{$dri[$i]->driver_reg_number}}</td>
                         </tr>
                     @endfor
                     </tbody>
@@ -132,21 +140,21 @@
                 <table class="table table-hover">
                     <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Recipe_id</th>
-                        <th>Nutrient</th>
-                        <th>Amount</th>
-                        <th>Dri/Dv(%)</th>
+                        <th>Bus Id</th>
+                        <th>Name</th>
+                        <th>Contact Number</th>
+                        <th>NIC Number</th>
+                        <th>Registration No</th>
                     </tr>
                     </thead>
                     <tbody>
-                    @for($c=0;$c<count($con);$c++)
+                    @for($i=0;$i<count($con);$i++)
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>{{$con[$i]->b_id}}</td>
+                            <td>{{$con[$i]->conductor_name}}</td>
+                            <td>{{$con[$i]->contact_number}}</td>
+                            <td>{{$con[$i]->nic_number}}</td>
+                            <td>{{$con[$i]->conductor_reg_number}}</td>
                         </tr>
                     @endfor
                     </tbody>

@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interaction.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interaction.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Home/interaction.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+              <caret line="70" column="118" selection-start-line="70" selection-start-column="118" selection-end-line="70" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -62,35 +62,9 @@
       <file leaf-file-name="2016_03_25_151906_create_busses_busRoutes_drivers_conductors_tables.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_151906_create_busses_busRoutes_drivers_conductors_tables.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="391">
               <caret line="66" column="48" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="48" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="53" column="44" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusRouteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusRouteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding>
-                <element signature="e#125#141#0#PHP" expanded="true" />
-                <marker date="1459053635644" expanded="true" signature="394:435" placeholder="SELECT * FRO... users" />
-                <marker date="1459053635644" expanded="true" signature="1248:1289" placeholder="SELECT * FRO... users" />
-                <marker date="1459053635644" expanded="true" signature="2053:2094" placeholder="SELECT * FRO... users" />
-                <marker date="1459053635644" expanded="true" signature="2441:2482" placeholder="SELECT * FRO... users" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +98,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="user.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/Home/user.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1559">
+              <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -145,15 +129,15 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_152001_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/BusRoute.php" />
-        <option value="$PROJECT_DIR$/resources/views/Home/user.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_03_25_151906_create_busses_busRoutes_drivers_conductors_tables.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BusRouteController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DriverController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ConductorController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BusController.php" />
         <option value="$PROJECT_DIR$/resources/views/Home/interaction.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_03_25_151906_create_busses_busRoutes_drivers_conductors_tables.php" />
+        <option value="$PROJECT_DIR$/resources/views/Home/user.blade.php" />
       </list>
     </option>
   </component>
@@ -450,12 +434,12 @@
       <updated>1458853658226</updated>
       <workItem from="1458853660261" duration="178000" />
       <workItem from="1458854057818" duration="304000" />
-      <workItem from="1458917993593" duration="31113000" />
+      <workItem from="1458917993593" duration="32372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31595000" />
+    <option name="totallyTimeSpent" value="32854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -760,59 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/user.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Home/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="905">
           <caret line="194" column="42" selection-start-line="194" selection-start-column="42" selection-end-line="194" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <element signature="e#126#138#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusRouteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="e#125#141#0#PHP" expanded="true" />
-            <marker date="1459053635644" expanded="true" signature="394:435" placeholder="SELECT * FRO... users" />
-            <marker date="1459053635644" expanded="true" signature="1248:1289" placeholder="SELECT * FRO... users" />
-            <marker date="1459053635644" expanded="true" signature="2053:2094" placeholder="SELECT * FRO... users" />
-            <marker date="1459053635644" expanded="true" signature="2441:2482" placeholder="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_151906_create_busses_busRoutes_drivers_conductors_tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="66" column="48" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -871,7 +806,56 @@
     <entry file="file://$PROJECT_DIR$/resources/views/Home/interaction.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <caret line="70" column="118" selection-start-line="70" selection-start-column="118" selection-end-line="70" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusRouteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#125#141#0#PHP" expanded="true" />
+            <marker date="1459053635644" expanded="true" signature="394:435" placeholder="SELECT * FRO... users" />
+            <marker date="1459053635644" expanded="true" signature="1248:1289" placeholder="SELECT * FRO... users" />
+            <marker date="1459053635644" expanded="true" signature="2053:2094" placeholder="SELECT * FRO... users" />
+            <marker date="1459053635644" expanded="true" signature="2441:2482" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <element signature="e#126#138#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_151906_create_busses_busRoutes_drivers_conductors_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="66" column="48" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1559">
+          <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
           <folding />
         </state>
       </provider>
