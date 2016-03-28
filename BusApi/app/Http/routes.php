@@ -20,7 +20,6 @@
 //});
 
 //Routes for documentation
-
 $app->get('/', function () use ($app) {
     return view('Home.index');
 });

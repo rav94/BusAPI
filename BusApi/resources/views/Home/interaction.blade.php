@@ -80,7 +80,7 @@
                 <form id="busRouteForm" method="POST" action="../busapi/busroute/create/{{$usr->token}}">
                     <div class="form-group">
                         <label>Bus ID <span style="color:red;">*</span></label>
-                        <select class="form-control" name="b_id">
+                        <select class="form-control" name="b_id" data-no-selected="Nothing Selected">
                             @foreach($busData as $busData)
                             <option value="{{$busData->bus_id}}">{{$busData->bus_name}}</option>
                             @endforeach

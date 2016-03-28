@@ -17,7 +17,6 @@ use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
@@ -43,7 +42,7 @@ class UserController extends Controller
         $user=new User();
         $user->name=$request->input('name');
         $user->email=$request->input('email');
-        $user->password=Hash::bycrypt($request->input('password'));
+        $user->password=Crypt::encrypt($request->input('password'));
         $user->token=$token;
         $user->save();
         return redirect('user');
@@ -57,14 +56,24 @@ class UserController extends Controller
     public function log(Request $request)
     {
         $email=$request->Input('email');
-        $password=$request->Input('password');
-        $status=User::where('email','=',$email)->where('password','=',$password)->first();
+
+        $status=User::where('email','=',$email)->first();
+        
         if($status!=null)
         {
-            session_start();
-            $_SESSION['userid'] = $status->id;
-            $_SESSION['token'] = $status->token;
-            return redirect('user');
+            $decrypted = Crypt::decrypt($status->password);
+
+            if ($decrypted==$request->Input('password'))
+            {
+                session_start();
+                $_SESSION['userid'] = $status->id;
+                $_SESSION['token'] = $status->token;
+                return redirect('user');
+            }
+            else
+            {
+                return redirect('../user/login/');
+            }
         }
         else
         {
