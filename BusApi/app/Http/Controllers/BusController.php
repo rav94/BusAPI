@@ -24,7 +24,7 @@ class BusController extends Controller
         if($user!=null)
         {
             $bus = new Bus();
-            $bus->bus_name=$request->input('bus_name');
+            $bus->bus_name=str_replace(' ', '', $request->input('bus_name')) ;
             $bus->bus_reg_number=$request->input('bus_reg_number');
             $bus->bus_brand=$request->input('bus_brand');
             $bus->bus_seat_no=$request->input('bus_seat_no');
@@ -83,7 +83,8 @@ class BusController extends Controller
             $bus = DB::select("SELECT * FROM buses WHERE  bus_id = '$id'");
             return response()->json($bus);
         }
-        else{
+        else
+        {
             return response()->json(["Your API Key is Not Valid"]);
         }
     }

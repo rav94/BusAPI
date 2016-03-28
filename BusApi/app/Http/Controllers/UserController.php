@@ -82,7 +82,7 @@ class UserController extends Controller
             $busRoutes=BusRoute::where('user_id','=',$id)->get()->all();
             $driver=Driver::where('user_id','=',$id)->get()->all();
             $conductor=Conductor::where('user_id','=',$id)->get()->all();
-            return view('Home.user', ['bus'=>$bus,'broute'=>$busRoutes,'dri'=>$driver,'con'=>$conductor,'usr'=>$user]);
+            return view('Home.userData', ['bus'=>$bus,'broute'=>$busRoutes,'dri'=>$driver,'con'=>$conductor,'usr'=>$user]);
         }
         else
         {
@@ -102,7 +102,10 @@ class UserController extends Controller
         session_start();
         $id = $_SESSION['userid'];
         $user=User::where('id','=',$id)->first();
-        return view('Home.interaction',['usr'=>$user]);
+        $busData = DB::select("SELECT * FROM buses WHERE user_id = '$id'");
+        $driver = DB::select("SELECT * FROM buses WHERE user_id = '$id'");
+        //,['data'=>$busData]
+        return view('Home.interaction',['usr'=>$user], ['busData'=>$busData], ['driver'=>$driver]);
     }
 
 

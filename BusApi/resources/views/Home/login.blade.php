@@ -121,10 +121,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-            <ul class="nav navbar-nav navbar-right">
-                <a href="user/logout" class="btn btn-danger" role="button">LogOut</a>
+            {{--<ul class="nav navbar-nav navbar-right">--}}
+                {{--<a href="user/logout" class="btn btn-danger" role="button">LogOut</a>--}}
 
-            </ul>
+            {{--</ul>--}}
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
@@ -138,7 +138,7 @@
                             <a href="#" class="active" id="login-form-link">LogIn</a>
                         </div>
                         <div class="col-xs-6">
-                            <a href="#" id="register-form-link">Register</a>
+                            <a href="#" id="register-form-link">Sign Up</a>
                         </div>
                     </div>
                     <hr>
@@ -148,10 +148,10 @@
                         <div class="col-lg-12">
                             <form id="login-form" action="../user/log" method="post" role="form" style="display: block;">
                                 <div class="form-group">
-                                    <input  autocomplete="off" type="text" name="email" id="email" tabindex="1" class="form-control" placeholder="Username" value="" >
+                                    <input  autocomplete="off" type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email" value="" required>
                                 </div>
                                 <div class="form-group">
-                                    <input autocomplete="off" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" >
+                                    <input autocomplete="off" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" required>
                                 </div>
 
                                 <div class="form-group">
@@ -165,21 +165,21 @@
                             </form>
                             <form id="register-form" action="../user/create" method="post" role="form" style="display: none;">
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="Username" value="">
+                                    <input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="Username" value="" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                                    <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password" required>
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">
-                                            <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+                                            <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Sign Up">
                                         </div>
                                     </div>
                                 </div>

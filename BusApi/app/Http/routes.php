@@ -41,6 +41,10 @@ $app->get('conductors', function () use ($app) {
     return view('Home.include.conductors');
 });
 
+$app->get('authentication', function () use ($app) {
+    return view('Home.include.authentication_process');
+});
+
 
 //API Client Application Routes
 

@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>User Manage</title>
+    <title>Bus API - User Management</title>
     {!! HTML::style('css/bootstrap.min.css')!!}
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -22,10 +22,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="../user">Current Data<span class="sr-only">(current)</span></a></li>
-                <li><a href="../user/busapi">Add More Buses</a></li>
+                <li class="active"><a href="../user">Available Data<span class="sr-only">(current)</span></a></li>
+                <li><a href="../user/busapi">Try it out!</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <a class="btn btn-link" href="../user" role="button">Hi {{$usr->name}}!</a>
                 <a href="../user/logout" class="btn btn-danger" role="button">LogOut</a>
 
             </ul>
@@ -35,13 +36,13 @@
 <br><br>
 <div class="row">
     <div class="col-md-4 col-md-offset-4">
-        <div class="alert alert-success" role="alert" style="text-align: center;">Api Key : <div style="color: black;">{{$usr->token}}</div> </div>
+        <div class="alert alert-success" role="alert" style="text-align: center;">Hi there <b>{{$usr->name}}</b>, your secure API key is : <div style="color: black;">{{$usr->token}}</div> </div>
     </div>
 </div>
 <br><br>
 
 <div class="row">
-    <div class="panel panel-info">
+    <div class="panel panel-success">
         <div class="panel-body">
             <div class="col-md-5 col-md-offset-1">
                 <h3>Bus Data</h3>
@@ -106,7 +107,7 @@
 </div>
 
 <div class="row">
-    <div class="panel panel-info">
+    <div class="panel panel-success">
         <div class="panel-body">
             <div class="col-md-5 col-md-offset-1">
                 <h3>Driver Data</h3>
