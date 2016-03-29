@@ -112,9 +112,7 @@ class UserController extends Controller
         $id = $_SESSION['userid'];
         $user=User::where('id','=',$id)->first();
         $busData = DB::select("SELECT * FROM buses WHERE user_id = '$id'");
-        $driver = DB::select("SELECT * FROM buses WHERE user_id = '$id'");
-        //,['data'=>$busData]
-        return view('Home.interaction',['usr'=>$user], ['busData'=>$busData], ['driver'=>$driver]);
+        return view('Home.interaction',['usr'=>$user], ['busData'=>$busData]);
     }
 
 

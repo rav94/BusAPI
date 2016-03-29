@@ -189,6 +189,10 @@
                 </div>
             </div>
         </div>
+        {{--<div class="alert alert-warning">--}}
+            {{--<strong>Warning!</strong> {{$err}}--}}
+        {{--</div>--}}
+
     </div>
 </div>
 {!! HTML::script('js/vendor/jquery.min.js')!!}

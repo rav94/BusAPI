@@ -71,7 +71,7 @@
                         <input type="number" class="form-control" name="bus_contact_no" placeholder="Bus owner Contact Number">
                     </div>
 
-                    <button type="submit" class="btn btn-success">Create</button>
+                    <button type="submit" class="btn btn-success">Add</button>
                     <button type="reset" class="btn btn-info">Clear</button>
                 </form>
             </div>
@@ -107,7 +107,7 @@
                         <input type="text" class="form-control" name="estimated_time" placeholder="Estimated Time">
                     </div>
 
-                    <button type="submit" class="btn btn-success">Create</button>
+                    <button type="submit" class="btn btn-success">Add</button>
                     <button type="reset" class="btn btn-info">Clear</button>
                 </form>
             </div>
@@ -123,9 +123,9 @@
                 <form method="POST" action="../busapi/driver/create/{{$usr->token}}">
                     <div class="form-group">
                         <label>Bus ID <span style="color:red;">*</span></label>
-                        {{--<select class="form-control" name="b_id">--}}
-                            {{--@foreach($driver as $driver)--}}
-                                {{--<option value="{{$driver->bus_id}}">{{$driver->bus_name}}</option>--}}
+                        {{--<select id="b_id" class="form-control" name="b_id" data-no-selected="Nothing Selected">--}}
+                            {{--@foreach($busData as $busDatas)--}}
+                                {{--<option value="{{$busDatas->bus_id}}">{{$busDatas->bus_name}}</option>--}}
                             {{--@endforeach--}}
                         {{--</select>--}}
                     </div>
@@ -146,7 +146,7 @@
                         <input type="number" class="form-control" name="driver_reg_number" placeholder="Registration No" required>
                     </div>
 
-                    <button type="submit" class="btn btn-success">Create</button>
+                    <button type="submit" class="btn btn-success">Add</button>
                     <button type="reset" class="btn btn-info">Clear</button>
                 </form>
             </div>
@@ -155,7 +155,11 @@
                 <form method="POST" action="../busapi/conductor/create/{{$usr->token}}">
                     <div class="form-group">
                         <label>Bus ID <span style="color:red;">*</span></label>
-                        <input type="text" class="form-control" name="b_id" placeholder="Bus ID">
+                        {{--<select class="form-control" name="b_id" data-no-selected="Nothing Selected">--}}
+                            {{--@foreach($busData as $busData)--}}
+                                {{--<option value="{{$busData->bus_id}}">{{$busData->bus_name}}</option>--}}
+                            {{--@endforeach--}}
+                        {{--</select>--}}
                     </div>
                     <div class="form-group">
                         <label>Conductor Name <span style="color:red;">*</span></label>
@@ -174,7 +178,7 @@
                         <input type="number" class="form-control" name="conductor_reg_number" placeholder="Registration No" required>
                     </div>
 
-                    <button type="submit" class="btn btn-success">Create</button>
+                    <button type="submit" class="btn btn-success">Add</button>
                     <button type="reset" class="btn btn-info">Clear</button>
                 </form>
             </div>
@@ -192,8 +196,16 @@
         {{--form.submit();--}}
     {{--}--}}
     {{--function toUpdateRoute() {--}}
-        {{--form.action="../busapi/busroute/update/{{$usr->id}}/{{$usr->token}}";--}}
-        {{--form.submit();--}}
+        {{--$.ajax--}}
+        {{--({--}}
+            {{--url: '../busapi/busroute/update/{{$busRoute->route_id}}/{{$usr->token}}',--}}
+            {{--type: 'PUT',--}}
+            {{--success: function (data)--}}
+            {{--{--}}
+                {{----}}
+            {{--}--}}
+        {{--});--}}
+
     {{--}--}}
 {{--</script>--}}
 

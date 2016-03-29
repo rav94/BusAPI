@@ -28,93 +28,7 @@
     <favorites_list name="BusApi" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <element signature="e#126#138#0#PHP" expanded="true" />
-                <marker date="1459188697057" expanded="true" signature="2899:2940" placeholder="SELECT * FRO... buses" />
-                <marker date="1459188697057" expanded="true" signature="2974:3009" placeholder="SELECT * FRO... buses" />
-                <marker date="1459188697057" expanded="true" signature="2974:3015" placeholder="SELECT * FRO... buses" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interaction.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/Home/interaction.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="82" column="101" selection-start-line="82" selection-start-column="101" selection-end-line="82" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-              <folding>
-                <element signature="e#125#137#0#PHP" expanded="true" />
-                <marker date="1459138520075" expanded="true" signature="383:424" placeholder="SELECT * FRO... users" />
-                <marker date="1459138520075" expanded="true" signature="1203:1244" placeholder="SELECT * FRO... users" />
-                <marker date="1459138520075" expanded="true" signature="1311:1352" placeholder="SELECT * FRO... buses" />
-                <marker date="1459138520075" expanded="true" signature="1922:1963" placeholder="SELECT * FRO... users" />
-                <marker date="1459138520075" expanded="true" signature="2032:2073" placeholder="SELECT * FRO... buses" />
-                <marker date="1459138520075" expanded="true" signature="2391:2432" placeholder="SELECT * FRO... users" />
-                <marker date="1459138520075" expanded="true" signature="2494:2535" placeholder="SELECT * FRO... buses" />
-                <marker date="1459138520075" expanded="true" signature="2780:2906" placeholder="SELECT * FRO... buses" />
-                <marker date="1459138520075" expanded="true" signature="2780:3451" placeholder="SELECT b.bus... buses" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/Home/layout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/Home/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriverController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DriverController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="43" column="80" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="80" />
-              <folding>
-                <marker date="1459101695364" expanded="true" signature="373:414" placeholder="SELECT * FRO... users" />
-                <marker date="1459101695364" expanded="true" signature="1134:1175" placeholder="SELECT * FRO... users" />
-                <marker date="1459101695364" expanded="true" signature="1245:1290" placeholder="SELECT * FRO... drivers" />
-                <marker date="1459101695364" expanded="true" signature="1890:1931" placeholder="SELECT * FRO... users" />
-                <marker date="1459101695364" expanded="true" signature="2001:2047" placeholder="SELECT * FRO... drivers" />
-                <marker date="1459101695364" expanded="true" signature="2333:2374" placeholder="SELECT * FRO... users" />
-                <marker date="1459101695364" expanded="true" signature="2444:2490" placeholder="SELECT * FRO... drivers" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,13 +53,17 @@
         <option value="$PROJECT_DIR$/resources/views/Home/user.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Home/userData.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Home/include/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Home/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Home/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Home/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Home/include/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Home/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Home/interaction.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Home/include/buses.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Home/include/busroutes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Home/include/drivers.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Home/include/conductors.blade.php" />
       </list>
     </option>
   </component>
@@ -190,6 +108,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,44 +193,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusApi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusApi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProjectAtom" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value=".ht&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/public/.htaccess&#10;bus&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/BusController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/UserController.php&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;bu&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/BusController.php&#10;co&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/ConductorController.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;use&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/UserController.php&#10;ro&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="dr&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/DriverController.php&#10;co&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/ConductorController.php&#10;r&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;ro&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;bus&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/BusRouteController.php&#10;.ht&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/public/.htaccess&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/UserController.php&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;bu&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/BusController.php&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/routes.php&#10;use&#9;FILE&#9;file://C:/xampp/htdocs/ApiProject/BusApi/app/Http/Controllers/UserController.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -374,32 +264,33 @@
       <workItem from="1459063745011" duration="515000" />
       <workItem from="1459064280125" duration="16484000" />
       <workItem from="1459136277047" duration="18179000" />
-      <workItem from="1459188037754" duration="1628000" />
+      <workItem from="1459188037754" duration="1727000" />
+      <workItem from="1459225284125" duration="9783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69833000" />
+    <option name="totallyTimeSpent" value="79715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760968" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28214827" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -573,20 +464,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Home/include/busroutes.blades.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/busroutes.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/conductors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -622,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/buses.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/BusRoute.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -657,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/drivers.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -680,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ConductorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="75" column="89" selection-start-line="75" selection-start-column="89" selection-end-line="75" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Bus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -695,31 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusRouteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="79" column="85" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Home/include/script.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="125" selection-start-line="7" selection-start-column="125" selection-end-line="7" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="176" column="178" selection-start-line="176" selection-start-column="178" selection-end-line="176" selection-end-column="178" />
         </state>
       </provider>
     </entry>
@@ -744,27 +579,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Home/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DriverController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="43" column="80" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="80" />
-          <folding>
-            <marker date="1459101695364" expanded="true" signature="373:414" placeholder="SELECT * FRO... users" />
-            <marker date="1459101695364" expanded="true" signature="1134:1175" placeholder="SELECT * FRO... users" />
-            <marker date="1459101695364" expanded="true" signature="1245:1290" placeholder="SELECT * FRO... drivers" />
-            <marker date="1459101695364" expanded="true" signature="1890:1931" placeholder="SELECT * FRO... users" />
-            <marker date="1459101695364" expanded="true" signature="2001:2047" placeholder="SELECT * FRO... drivers" />
-            <marker date="1459101695364" expanded="true" signature="2333:2374" placeholder="SELECT * FRO... users" />
-            <marker date="1459101695364" expanded="true" signature="2444:2490" placeholder="SELECT * FRO... drivers" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,9 +595,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="625">
           <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
           <folding>
             <element signature="e#125#137#0#PHP" expanded="true" />
@@ -795,40 +622,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BusRouteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/buses.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        <state relative-caret-position="777">
+          <caret line="113" column="75" selection-start-line="113" selection-start-column="75" selection-end-line="113" selection-end-column="75" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
             <element signature="e#126#138#0#PHP" expanded="true" />
-            <marker date="1459188697057" expanded="true" signature="2899:2940" placeholder="SELECT * FRO... buses" />
-            <marker date="1459188697057" expanded="true" signature="2974:3009" placeholder="SELECT * FRO... buses" />
-            <marker date="1459188697057" expanded="true" signature="2974:3015" placeholder="SELECT * FRO... buses" />
+            <marker date="1459230874838" expanded="true" signature="2899:2940" placeholder="SELECT * FRO... buses" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/busroutes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="191" column="8" selection-start-line="191" selection-start-column="12" selection-end-line="193" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ConductorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="75" column="89" selection-start-line="75" selection-start-column="89" selection-end-line="75" selection-end-column="89" />
+          <folding>
+            <marker date="1459137905649" expanded="true" signature="379:420" placeholder="SELECT * FRO... users" />
+            <marker date="1459137905649" expanded="true" signature="1177:1218" placeholder="SELECT * FRO... users" />
+            <marker date="1459137905649" expanded="true" signature="1291:1342" placeholder="SELECT * FRO... conductors" />
+            <marker date="1459137905649" expanded="true" signature="1970:2011" placeholder="SELECT * FRO... users" />
+            <marker date="1459137905649" expanded="true" signature="2084:2135" placeholder="SELECT * FRO... conductors" />
+            <marker date="1459137905649" expanded="true" signature="2419:2460" placeholder="SELECT * FRO... users" />
+            <marker date="1459137905649" expanded="true" signature="2533:2584" placeholder="SELECT * FRO... conductors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DriverController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="43" column="80" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="80" />
+          <folding>
+            <marker date="1459101695364" expanded="true" signature="373:414" placeholder="SELECT * FRO... users" />
+            <marker date="1459101695364" expanded="true" signature="1134:1175" placeholder="SELECT * FRO... users" />
+            <marker date="1459101695364" expanded="true" signature="1245:1290" placeholder="SELECT * FRO... drivers" />
+            <marker date="1459101695364" expanded="true" signature="1890:1931" placeholder="SELECT * FRO... users" />
+            <marker date="1459101695364" expanded="true" signature="2001:2047" placeholder="SELECT * FRO... drivers" />
+            <marker date="1459101695364" expanded="true" signature="2333:2374" placeholder="SELECT * FRO... users" />
+            <marker date="1459101695364" expanded="true" signature="2444:2490" placeholder="SELECT * FRO... drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/drivers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Home/include/conductors.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1547">
+          <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Home/interaction.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="82" column="101" selection-start-line="82" selection-start-column="101" selection-end-line="82" selection-end-column="101" />
+        <state relative-caret-position="1496">
+          <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
           <folding />
         </state>
       </provider>
