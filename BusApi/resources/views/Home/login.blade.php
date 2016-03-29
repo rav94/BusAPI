@@ -189,10 +189,16 @@
                 </div>
             </div>
         </div>
-        {{--<div class="alert alert-warning">--}}
-            {{--<strong>Warning!</strong> {{$err}}--}}
-        {{--</div>--}}
-
+        @if($error!=null)
+        <div class="col-md-6 col-md-offset-3">
+            <div class="{{$alert}}" style="text-align: center">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                {{$error}}
+            </div>
+        </div>
+        @endif
     </div>
 </div>
 {!! HTML::script('js/vendor/jquery.min.js')!!}

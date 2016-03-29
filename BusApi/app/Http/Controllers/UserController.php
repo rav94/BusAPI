@@ -50,7 +50,7 @@ class UserController extends Controller
 
     public function login()
     {
-        return view('Home.login');
+        return view('Home.login', ['error'=>'', 'alert'=>'alert alert-danger']);
     }
 
     public function log(Request $request)
@@ -72,12 +72,12 @@ class UserController extends Controller
             }
             else
             {
-                return redirect('../user/login/');
+                return view('Home.login', ['error'=>'Username or password is incorrect, please check again!', 'alert'=>'alert alert-danger']);
             }
         }
         else
         {
-            return redirect('/');
+            return redirect('../user/login/');
         }
     }
     public function index()
