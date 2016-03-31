@@ -3,21 +3,9 @@
     @include('Home.include.sidebar')
 @endsection
 @section('content')
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <style>
-        .table tfoot td, table tfoot th, table thead td, table thead th{
-            font-weight: 100;
-        }
-        .code{
-            font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-            font-size: 14px;
-        }
-        td{
-            font-size: 14px;
-        }
-    </style>
 
-    <h3 id="view_type">Buses</h3>
+
+    <h3 id="view_type">Drivers</h3>
 
     <p>The API Resource page for the Driver Resource. You can easily create, update, delete a driver resource
         and get the title by the ID in each driver resource.</p>

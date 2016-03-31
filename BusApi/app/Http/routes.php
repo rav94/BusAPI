@@ -45,6 +45,8 @@ $app->get('authentication', function () use ($app) {
 });
 
 
+
+
 //API Client Application Routes
 
 //User Routes
@@ -54,6 +56,7 @@ $app->post('user/log','UserController@log');
 $app->get('user/login','UserController@login');
 $app->get('user/logout','UserController@logout');
 $app->get('user/busapi','UserController@interactions');
+$app->get('user/apikey', 'UserController@apiToken');
 
 //API Routes
  

@@ -30,10 +30,10 @@ class UserController extends Controller
         if($details!=null)
         {
             $id=$details->id;
-            $nextToken=$id+1;
+            $userIdToken=$id+1; //Setting to obtain user_id -> to make token unique
             $random = str_random(13);
             $random1 = str_random(3);
-            $token= $random.$nextToken.$random1;
+            $token= $random.$userIdToken.$random1;
         }
         else
         {
@@ -113,6 +113,14 @@ class UserController extends Controller
         $user=User::where('id','=',$id)->first();
         $busData = DB::select("SELECT * FROM buses WHERE user_id = '$id'");
         return view('Home.interaction',['usr'=>$user], ['busData'=>$busData]);
+    }
+
+    public  function apiToken()
+    {
+        session_start();
+        $id = $_SESSION['userid'];
+        $user=User::where('id','=',$id)->first();
+        return view('Home.apiKey',['usr'=>$user]);
     }
 
 

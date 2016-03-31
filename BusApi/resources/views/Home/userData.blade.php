@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Bus API - User Management</title>
     {!! HTML::style('css/bootstrap.min.css')!!}
+    {!! HTML::style('css/login-page.css')!!}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -16,18 +18,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Bus API</a>
+            <a class="navbar-brand" href="/"><span><i class="fa fa-bus"></i></span>&nbsp;Bus API</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="../user">Available Data<span class="sr-only">(current)</span></a></li>
+                <li><a href="../user/apikey">API Key</a></li>
                 <li><a href="../user/busapi">Try it out!</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <a class="btn btn-link" href="../user" role="button">Hi {{$usr->name}}!</a>
-                <a href="../user/logout" class="btn btn-danger" role="button">LogOut</a>
+                <a href="../user/logout" class="btn btn-danger" role="button" style="margin-top: 5px">LogOut</a>
 
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -36,7 +39,7 @@
 <br><br>
 <div class="row">
     <div class="col-md-4 col-md-offset-4">
-        <div class="alert alert-success" role="alert" style="text-align: center;">Hi there <b>{{$usr->name}}</b>, your secure API key is : <div style="color: black;">{{$usr->token}}</div> </div>
+        <div class="alert alert-success" role="alert" style="text-align: center; color: #27ae60">Hi there <b>{{$usr->name}}</b>, your secure API key is : <div style="color: #7f8c8d;"><b>{{$usr->token}}</b></div> </div>
     </div>
 </div>
 <br><br>
