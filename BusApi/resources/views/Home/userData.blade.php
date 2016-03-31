@@ -48,7 +48,7 @@
     <div class="panel panel-success">
         <div class="panel-body">
             <div class="col-md-5 col-md-offset-1">
-                <h3>Bus Data</h3>
+                <h3>Buses</h3>
                 <hr>
                 <table class="table table-hover">
                     <thead>
@@ -78,7 +78,7 @@
                 </table>
             </div>
             <div class="col-md-5">
-                <h3>Bus Routes Data</h3>
+                <h3>Bus Routes</h3>
                 <hr>
                 <table class="table table-hover">
                     <thead>
@@ -113,7 +113,7 @@
     <div class="panel panel-success">
         <div class="panel-body">
             <div class="col-md-5 col-md-offset-1">
-                <h3>Driver Data</h3>
+                <h3>Drivers</h3>
                 <hr>
                 <table class="table table-hover">
                     <thead>
@@ -139,7 +139,7 @@
                 </table>
             </div>
             <div class="col-md-5">
-                <h3>Conductor Data</h3>
+                <h3>Conductors</h3>
                 <hr>
                 <table class="table table-hover">
                     <thead>
