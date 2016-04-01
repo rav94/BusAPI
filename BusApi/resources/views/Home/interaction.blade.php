@@ -84,8 +84,8 @@
                     <div class="form-group">
                         <label>Bus ID <span style="color:red;">*</span></label>
                         <select class="form-control" name="b_id" data-no-selected="Nothing Selected">
-                            @foreach($busData as $busData)
-                            <option value="{{$busData->bus_id}}">{{$busData->bus_name}}</option>
+                            @foreach($busData as $bus)
+                            <option value="{{$bus->bus_id}}">{{$bus->bus_name}}</option>
                             @endforeach
                         </select>
                     </div>
@@ -126,11 +126,11 @@
                 <form method="POST" action="../busapi/driver/create/{{$usr->token}}">
                     <div class="form-group">
                         <label>Bus ID <span style="color:red;">*</span></label>
-                        {{--<select id="b_id" class="form-control" name="b_id" data-no-selected="Nothing Selected">--}}
-                            {{--@foreach($busData as $busDatas)--}}
-                                {{--<option value="{{$busDatas->bus_id}}">{{$busDatas->bus_name}}</option>--}}
-                            {{--@endforeach--}}
-                        {{--</select>--}}
+                        <select id="b_id" class="form-control" name="b_id" data-no-selected="Nothing Selected">
+                            @foreach($busData as $bus)
+                                <option value="{{$bus->bus_id}}">{{$bus->bus_name}}</option>
+                            @endforeach
+                        </select>
                     </div>
                     <div class="form-group">
                         <label>Driver Name <span style="color:red;">*</span></label>
@@ -158,11 +158,11 @@
                 <form method="POST" action="../busapi/conductor/create/{{$usr->token}}">
                     <div class="form-group">
                         <label>Bus ID <span style="color:red;">*</span></label>
-                        {{--<select class="form-control" name="b_id" data-no-selected="Nothing Selected">--}}
-                            {{--@foreach($busData as $busData)--}}
-                                {{--<option value="{{$busData->bus_id}}">{{$busData->bus_name}}</option>--}}
-                            {{--@endforeach--}}
-                        {{--</select>--}}
+                        <select id="b_id" class="form-control" name="b_id" data-no-selected="Nothing Selected">
+                            @foreach($busData as $bus)
+                                <option value="{{$bus->bus_id}}">{{$bus->bus_name}}</option>
+                            @endforeach
+                        </select>
                     </div>
                     <div class="form-group">
                         <label>Conductor Name <span style="color:red;">*</span></label>
